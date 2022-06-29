@@ -1,5 +1,5 @@
-/* eslint-disable no-console */
-/* eslint-disable linebreak-style */
+/**
+/* eslint-disable linebreak-style
 // add two numbers
 const num1 = 23;
 const num2 = 25;
@@ -10,7 +10,8 @@ console.log(add);
 // add a sequence of 6
 const number = '6';
 const digit = 5;
-console.log(number + digit);
+const sum = number + digit;
+console.log(sum);
 
 // solution of equation ( 4+6+9)/77
 const sum = (4 + 5 + 9);
@@ -38,7 +39,6 @@ console.log(example);
 };
 console.log(example);
 
-
 //using let
 let alpha = 3;
 console.log(alpha);
@@ -48,8 +48,7 @@ console.log(alpha);
 };
 console.log(alpha);
 
-
-//using const 
+//using const
 const word = 3;
 console.log(word);
 {
@@ -79,9 +78,10 @@ console.log(strict);
 
 //divisible
 function isDivisibleByFive(num) {
-  if (num % 5 == 0) { 
+  if (num % 5 == 0) {
     return true;
   }
   return false;
 }
 console.log(isDivisibleByFive(1738791));
+*/
